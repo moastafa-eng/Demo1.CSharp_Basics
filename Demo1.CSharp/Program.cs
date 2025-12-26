@@ -4,28 +4,40 @@
     {
         static void Main(string[] args)
         {
-            // variables 
-            // variable declaration : Location in memory used to Stored data.
+            #region Variables
+            //// variables 
+            //// variable declaration : Location in memory used to Stored data.
 
-            // Declare variable 
-            int number; // Data type  + variable name => Allocated uninitialized 4 bytes in memory.
+            //// Declare variable 
+            //int number; // Data type  + variable name => Allocated uninitialized 4 bytes in memory.
 
-            //Console.WriteLine(number) // you can't use unassigned local variable
+            ////Console.WriteLine(number) // you can't use unassigned local variable
 
-            number = 8; // Assign value 8 to number
+            //number = 8; // Assign value 8 to number
 
-            Console.WriteLine(number);
+            //Console.WriteLine(number);
 
-            // Variable : 
-            // 1.Name : number
-            // 2.Data type : int
-            // 3.value :  8
-            // 4.Size : 4 bytes : 32 bits
-            // 5. Address : Hexadecimal
+            //// Variable : 
+            //// 1.Name : number
+            //// 2.Data type : int
+            //// 3.value :  8
+            //// 4.Size : 4 bytes : 32 bits
+            //// 5. Address : Hexadecimal
 
-            //int number; // invalid variable name because we use this name in our code.
+            ////int number; // invalid variable name because we use this name in our code.
 
-            //int number1, number2, number3; // we can declare more than variable in a single line with a single data  type
+            ////int number1, number2, number3; // we can declare more than variable in a single line with a single data  type 
+            #endregion
+
+            #region CTS & CLS
+            // CTS : Common type system
+            // CLS : Common language specification
+
+            //CLS :  expresses the common characteristics between languages ​​and each other.
+            // CTS : Contains all languages, data types and CLS (Container of .Net system) 
+            #endregion
+
+
         }
     }
 }
