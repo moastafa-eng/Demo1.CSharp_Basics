@@ -92,7 +92,43 @@
             #endregion
 
 
+            #region The parent class - object
+            //// object is a reference type
+            //// object is a parent of all classes
 
+            //object x = 12;
+            //object y = 1.2;
+            //object j = "Mostafa";
+            //object d = 'e';
+
+            //Point p = new Point();
+
+            //Console.WriteLine(p.ToString()); // Demo1.CSharp.Point
+            //Console.WriteLine(p.GetType()); // Demo1.CSharp.Point
+            //Console.WriteLine(p.GetHashCode()); // 234234
+            ////Console.WriteLine(p.Equals()); 
+            #endregion
+
+            // Casting : Convert Data type to another data type
+            // 1. Implicit casting
+
+            //int x = 12;
+            //long y = /*(long)*/ x; // Automatic casting / implicitly casting
+            //// (long) : Casting operator
+
+            //Console.WriteLine(y);
+
+            //int j = 12;
+            //double n = j; // save casting / implicitly casting
+
+            // 2. Explicit casting
+
+            long x = 10000000;
+            //int u = y; // this casting unSave because long is bigger than int;
+
+            int u = (int)x; // Forcing compiler to casting between those variables / Explicitly casting
+
+            Console.WriteLine(u);
         }
     }
 }
