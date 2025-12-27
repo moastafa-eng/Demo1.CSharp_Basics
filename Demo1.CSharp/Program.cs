@@ -109,26 +109,56 @@
             ////Console.WriteLine(p.Equals()); 
             #endregion
 
-            // Casting : Convert Data type to another data type
-            // 1. Implicit casting
+            #region Explicit & Implicit Casting.
+            //// Casting : Convert Data type to another data type
+            //// 1. Implicit casting
 
-            //int x = 12;
-            //long y = /*(long)*/ x; // Automatic casting / implicitly casting
-            //// (long) : Casting operator
+            ////int x = 12;
+            ////long y = /*(long)*/ x; // Automatic casting / implicitly casting
+            ////// (long) : Casting operator
 
-            //Console.WriteLine(y);
+            ////Console.WriteLine(y);
 
-            //int j = 12;
-            //double n = j; // save casting / implicitly casting
+            ////int j = 12;
+            ////double n = j; // safe casting / implicitly casting
 
-            // 2. Explicit casting
+            //// 2. Explicit casting
 
-            long x = 10000000;
-            //int u = y; // this casting unSave because long is bigger than int;
+            //long x = 10000000;
+            ////int u = y; // this casting unsafe because long is bigger than int;
 
-            int u = (int)x; // Forcing compiler to casting between those variables / Explicitly casting
+            //int u = (int)x; // Forcing compiler to casting between those variables / Explicitly casting
 
-            Console.WriteLine(u);
+            //Console.WriteLine(u); 
+            #endregion
+
+            #region Parse & TryParse & Convert
+            // parse : convert string to any data type
+
+            //int Age;
+
+            //Console.WriteLine("Enter your age : ");
+            //Age = int.Parse(Console.ReadLine());
+
+
+            // Convert : it contains many functions used in casting operation
+
+            //int age;
+
+            //Console.WriteLine("Enter your age : ");
+
+            //age = Convert.ToInt32(Console.ReadLine());
+
+            // TryParse
+
+            //int age;
+
+            //Console.WriteLine("Enter your age :");
+
+            //bool flag = int.TryParse(Console.ReadLine(), out age); // return bool
+
+            //Console.WriteLine($"your age is {age} and the flag is : {flag}"); 
+            #endregion
         }
     }
 }
