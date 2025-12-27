@@ -159,6 +159,89 @@
 
             //Console.WriteLine($"your age is {age} and the flag is : {flag}"); 
             #endregion
+
+            #region Operators
+
+            // 1.Unary Operators -> works on one operand variable ++ --
+            //int x = 10;
+
+            // PreFix.
+            //Console.WriteLine(++x); // Increment then print.
+
+            // PostFix
+            //Console.WriteLine(x++); // Print then increment.
+
+
+            // PreFix.
+            //Console.WriteLine(--x); // Decrement then print.
+
+            // PostFix
+            //Console.WriteLine(x--); // Print then Decrement.
+
+
+            //==========================================================
+
+            // 2.Binary operators : Works between two operand (variables)
+
+            //int mul, sub, sum, mod;
+            //int number1 = 12, number2 = 13;
+
+            //sum = number1 + number2;
+            //sub = number1 - number2;
+            //mul = number1 * number2;
+            //mod = number1 % number2;
+
+            //==========================================================
+
+            // 3.Assignment operator
+
+            //int x = 3;
+
+            //x += 2; // x + 2;
+            //x -= 2; // x - 2;
+            //x *= 2; // x * 2;
+            //x /= 2;
+            //x %= 2;
+
+            //==========================================================
+
+            // 4.Relational Operators [Comparison]
+
+            //int x = 12, y = 13;
+
+            //bool flag = x == y;
+            //bool flag2 = x <= y;
+            //bool flag3 = x >= y;
+            //bool flag4 = x != y;
+            //bool flag5 = x < y;
+            //bool flag6 = x > y;
+
+
+            //==============================================
+
+            // 5.Logical operators [Logic gates - And, Or, Not]
+
+            /*     Console.WriteLine(!false); // True.
+                 Console.WriteLine(false && true); // false short Circuit
+                 Console.WriteLine(false || true); // true short circuit*/
+
+            //==============================================
+
+            // 6.Bitwise operator
+
+            //Console.WriteLine(!false);
+            //Console.WriteLine(false & true); // Long circuit.
+            //Console.WriteLine(false | true); // long circuit.
+
+            // ==============================================
+
+            // 7. Ternary operators [Conditional operators]
+
+            //string result = (3 > 2) ? "True" : "False";
+
+            //Console.WriteLine(result);
+
+            #endregion
         }
     }
 }
